@@ -20,7 +20,7 @@ tutorial of installing cuda-9.0 on centos 7 (Nvidia Titan V)
   * 更换为清华源后安装epel源，CentOS直接yum install epel-release 即可，或进入官网  http://fedoraproject.org/wiki/EPEL 按照提示操作
   * 添加elrepo源，官网网址：http://elrepo.org/tiki/tiki-index.php，直接按照操作复制粘贴代码即可
   * 更新yum，运行 yum clean all,再运行 yum makecache即可
-  * 禁用自带的nouvea驱动，设置开机默认进入命令行模式
+  * 禁用自带的nouvea驱动，设置开机默认进入命令行模式
   * 下载nVidia的本地rpm包，网址：https://www.geforce.cn/drivers#，选择Linux 64-bit版本即可，找个稳定版，一般新的显卡找最新的驱动比较好
   * 运行该.run文件，一路选确定
   * 安装完之后运行nvidia-smi测试是否有正常输出
@@ -42,5 +42,5 @@ tutorial of installing cuda-9.0 on centos 7 (Nvidia Titan V)
   * 不要相信网上说安装nvidia的kmod-nvidia或者是rpm包直接安装，认定官网的Linux版本不动摇，运行.run文件不动摇，一路确定选yes不动摇
 * 感慨
   * Nvidia的驱动，还是需要禁用原来源的自带的闭驱动，并且禁用掉，在禁用的过程中记得更改文件最好做一次备份
-  * 网上Ubuntu安装cuda9.1等新版的较多，实际上CentOS的版本还是要旧的比较靠谱
-  * 资源多不代表一定正确，注意硬件和系统配置，注意各软件的位数，不是amd64,而是x86_64
+  * 网上Ubuntu安装cuda9.1等新版的较多，实际上CentOS的版本还是要旧的比较靠谱
+  * 资源多不代表一定正确，注意硬件和系统配置，注意各软件的位数，不是amd64,而是x86_64
