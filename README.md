@@ -35,6 +35,6 @@ tutorial of installing cuda-9.0 on centos 7 (Nvidia Titan V)
   * 运行 python3 -m pip install tensorflow-gpu
   * 输入python3，进入python环境，输入import tensorflow as tf看是否导入模块有问题，如无问题则运行官网示例代码，如运行后输出有显示titan v相关信息则安装成功
 * 一些坑
-  * tensorflow上说安装完cuda，cudnn之后要安装一些工具，实际上是不用的，这些在cuda-9.0安装的过程中已经是自动安装好了的
-  * 基本上，对源进行补充完整之后安装软件会更好，谨防出现依赖包问题
-  * 不要相信网上说安装nvidia的kmod-nvidia或者是rpm包直接安装，认定官网的Linux版本不动摇，运行.run文件不动摇，一路确定选yes不动摇
+  * tensorflow上说安装完cuda，cudnn之后要安装一些工具，实际上是不用的，这些在cuda-9.0安装的过程中已经是自动安装好了的
+  * 基本上，对源进行补充完整之后安装软件会更好，谨防出现依赖包问题
+  * 不要相信网上说安装nvidia的kmod-nvidia或者是rpm包直接安装，认定官网的Linux版本不动摇，运行.run文件不动摇，一路确定选yes不动摇
